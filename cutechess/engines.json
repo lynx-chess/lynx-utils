@@ -1,0 +1,412 @@
+[
+	{
+		"command" : "MinimalChessEngine.exe",
+		"name" : "MinimalChess 0.6",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "C:\\dev\\personal\\ch\\engines\\MinimalChess\\MinimalChess 0.6 Windows"
+	},
+	{
+		"command" : "cefap.exe",
+		"name" : "Cefap 0.72",
+		"protocol" : "xboard",
+		"stderrFile" : "",
+		"workingDirectory" : "C:\\dev\\personal\\ch\\engines\\Cefap"
+	},
+	{
+		"command" : "kimbo-1.0.0.exe",
+		"name" : "Kimbo 1.0.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 128,
+				"max" : 512,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 128
+			},
+			{
+				"name" : "Clear Hash",
+				"type" : "button"
+			},
+			{
+				"alias" : "",
+				"default" : 10,
+				"max" : 500,
+				"min" : 0,
+				"name" : "Move Overhead",
+				"type" : "spin",
+				"value" : 10
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Kimbo"
+
+	},
+	{
+		"command" : "princhess-0.10.0.exe",
+		"name" : "Princhess 0.10.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 16,
+				"max" : 65536,
+				"min" : 8,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 16
+			},
+			{
+				"alias" : "",
+				"default" : 1,
+				"max" : 255,
+				"min" : 1,
+				"name" : "Threads",
+				"type" : "spin",
+				"value" : 1
+			},
+			{
+				"alias" : "",
+				"default" : "",
+				"name" : "SyzygyPath",
+				"type" : "text",
+				"value" : ""
+			},
+			{
+				"alias" : "",
+				"default" : "1.79",
+				"name" : "CPuct",
+				"type" : "text",
+				"value" : "1.79"
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Princhess"
+	},
+	{
+		"command" : "stash-20.0.1-windows-x86_64-modern.exe",
+		"name" : "Stash 20.0.1",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 16,
+				"max" : 131072,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 16
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"variants" : [
+			"standard",
+			"fischerandom"
+		],
+		"workingDirectory" : "engines\\Stash"
+	},
+	{
+		"command" : "stash-17.0-windows-x86_64-modern.exe",
+		"name" : "Stash 17.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 16,
+				"max" : 131072,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 16
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"variants" : [
+			"standard",
+			"fischerandom"
+		],
+		"workingDirectory" : "engines\\Stash"
+	},
+	{
+		"command" : "messv0.1.0-windows-amd64.exe",
+		"name" : "Mess 0.1.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 16,
+				"max" : 33554432,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 16
+			},
+			{
+				"alias" : "",
+				"default" : 1,
+				"max" : 1,
+				"min" : 1,
+				"name" : "Threads",
+				"type" : "spin",
+				"value" : 1
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Mess\\0.1.0"
+	},
+	{
+		"command" : "mess-windows-amd64.exe",
+		"name" : "Mess 0.3.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 16,
+				"max" : 33554432,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 16
+			},
+			{
+				"alias" : "",
+				"default" : 1,
+				"max" : 1,
+				"min" : 1,
+				"name" : "Threads",
+				"type" : "spin",
+				"value" : 1
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Mess\\0.3.0"
+	},
+	{
+		"command" : "Avalanche_x86_64_windows_0.2.2.exe",
+		"name" : "Avalanche 0.2.2",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 32,
+				"max" : 4096,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 32
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Avalanche"
+	},
+	{
+		"command" : "odonata-0.4.0-windows-modern.exe",
+		"name" : "Odonata 0.4.0",
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Odonata"
+	},
+	{
+		"command" : "odonata-0.5.1-windows-modern.exe",
+		"name" : "Odonata 0.5.1",
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Odonata"
+	},
+	{
+		"command" : "polaris-1.3.0-bmi2.exe",
+		"name" : "Polaris 1.3.0",
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Polaris"
+	},
+	{
+		"command" : "zahak-windows-amd64-4.0.exe",
+		"name" : "Zahak 4.0",
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Zahak"
+	},
+	{
+		"command" : "luna_1.1.0_win_x86-64.exe",
+		"name" : "Luna 1.1.0",
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Luna"
+	},
+	{
+		"command" : "luna_2.0.0_avx2_win_x86-64.exe",
+		"name" : "Luna 2.0.0",
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Luna"
+	},
+	{
+		"command" : "admete_1.4.0_windows_x86-64.exe",
+		"name" : "Admete 1.4.0",
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Admete"
+	},
+	{
+		"command" : "admete_1.3.1_win_x86-64.exe",
+		"name" : "Admete 1.3.1",
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Admete"
+	},
+	{
+		"command" : "admete_1.5.0_windows_x86-64.exe",
+		"name" : "Admete 1.5.0",
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Admete"
+	},
+	{
+		"command" : "Pedantic.exe",
+		"name" : "Pedantic 0.1",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Pedantic\\Pedantic 0.1\\"
+	},
+	{
+		"command" : "Pedantic.exe",
+		"name" : "Pedantic 0.2",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Pedantic\\Pedantic 0.2\\"
+	},
+	{
+		"command" : "Leorik-2.0.2.exe",
+		"name" : "Leorik 2.0.2",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "C:\\dev\\personal\\ch\\engines\\Leorik\\Leorik 2.0 Windows"
+	},
+	{
+		"command" : "Cosette-Win64.exe",
+		"name" : "Cosette 4.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 32,
+				"max" : 65535,
+				"min" : 3,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 32
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "C:\\dev\\personal\\ch\\engines\\Cosette\\Cosette-Win64 4.0\\Cosette-Win64"
+	},
+	{
+		"command" : "Cosette-Win64.exe",
+		"name" : "Cosette 5.1",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 32,
+				"max" : 65535,
+				"min" : 3,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 32
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "C:\\dev\\personal\\ch\\engines\\Cosette\\Cosette-Win64 4.0\\Cosette-Win64"
+	},
+	{
+		"command" : "Lynx.Cli.exe",
+		"name" : "Lynx 1.0.1",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			},
+			{
+				"alias" : "",
+				"default" : false,
+				"name" : "OnlineTablebaseInRootPositions",
+				"type" : "check",
+				"value" : false
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "C:\\dev\\personal\\ch\\engines\\Lynx-1.0.1-win-x64"
+	},
+	{
+		"command" : "Lynx.Cli.exe",
+		"name" : "Lynx 2099 - main",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines\\Lynx-main-2099-win-x64"
+	}
+]
