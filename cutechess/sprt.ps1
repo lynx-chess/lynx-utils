@@ -13,7 +13,7 @@
 	-recover `
 	-ratinginterval 10 `
 	-resultformat wide2 `
-	-pgnout "matches\2066.pgn" `
+	-pgnout "matches\sprt-2099.pgn" `
 	-resign movecount=3 score=500 twosided=true `
 	-draw movenumber=40 movecount=8 score=10
 | tee last-sprt.txt

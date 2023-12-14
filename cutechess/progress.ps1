@@ -11,8 +11,8 @@
     -outcomeinterval 10 `
     -ratinginterval 10 `
     -recover `
-    -pgnout "matches\cosette-gauntlet.pgn"
-| tee last-self-gauntlet.txt
+    -pgnout "matches\progress-x.y.z.pgn"
+| tee last-progress.txt
 
     # " -event "Gauntlet $((Get-Date).ToString('yyyy-MM-dd_HH-mm'))" `
     # -recover -srand 6730291 `

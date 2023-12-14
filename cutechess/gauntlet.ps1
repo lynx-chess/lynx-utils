@@ -22,14 +22,10 @@
     -ratinginterval 10 `
 	-resultformat wide2 `
     -recover `
-    -pgnout "matches\gautnet-1.1.0-ltc.pgn"
+    -pgnout "matches\gautnet-x.y.z-ltc.pgn"
 | tee last-gauntlet.txt
 
     # " -event "Gauntlet $((Get-Date).ToString('yyyy-MM-dd_HH-mm'))" `
-    # -recover -srand 6730291 `
+
     # -draw movenumber=30 movecount=12 score=15 `
     # -resign movecount=12 score=600 twosided=true
-	
-	# -engine conf="Stash 17.0" `
-    # -engine conf="Cosette 4.0" `
-	
