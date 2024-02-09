@@ -1,6 +1,6 @@
 &"cutechess-1.3.1-win64/cutechess-cli.exe" `
-	-engine conf="Lynx 2099 - main" `
-	-engine conf="Cosette 5.1" `
+    -engine conf="Lynx 2099 - main" `
+    -engine conf="Cosette 5.1" `
     -each `
         tc=inf/40+0.4 `
         option.Hash=256 `

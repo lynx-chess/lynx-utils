@@ -1,16 +1,17 @@
 &"cutechess-1.3.1-win64/cutechess-cli.exe" `
-	-engine conf="Lynx 1.1.0" `
-    -engine conf="Leorik 2.0.2" `
-    -engine conf="Polaris 1.3.0" `
-    -engine conf="MinimalChess 0.6" `
-	-engine conf="Mess 0.1.0" `
-    -engine conf="Kimbo 1.0.0" `
-	-engine conf="Zahak 4.0" `
-	-engine conf="Luna 2.0.0" `
-	-engine conf="Stash 20.0.1" `
-	-engine conf="Odonata 0.5.1" `
-    -engine conf="Admete 1.5.0" `
-    -engine conf="Princhess 0.10.0" `
+    -engine conf="Lynx 1.3.0" `
+    -engine conf="Mess 0.3.0" `
+    -engine conf="Odonata 0.7.0" `
+    -engine conf="Zahak 5.0" `
+    -engine conf="Akimbo 0.4.0" `
+    -engine conf="Stash 21.0" `
+    -engine conf="Polaris 1.5.0" `
+    -engine conf="Pedantic 0.3.0" `
+    -engine conf="MadChess 3.1" `
+    -engine conf="Weiss 0.8" `
+    -engine conf="Princhess 0.11.0" `
+    -engine conf="Luna 2.0.0" `
+    -engine conf="Leorik 2.0" `
     -each `
         tc=inf/40+0.4 `
         option.Hash=256 `
