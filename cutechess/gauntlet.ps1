@@ -17,11 +17,9 @@
         option.Hash=256 `
     -games 2 -rounds 500 -repeat 1 -maxmoves 400 -srand 1692649580 `
     -openings file="books\8moves_v3.epd" format=epd order=random `
-	-tournament "gauntlet" -seeds 1 `
+    -tournament "gauntlet" -seeds 1 `
     -concurrency 8 `
-    -outcomeinterval 10 `
-    -ratinginterval 10 `
-	-resultformat wide2 `
+    -outcomeinterval 10 -ratinginterval 10 -resultformat wide2 `
     -recover `
     -pgnout "matches\gautnet-x.y.z-ltc.pgn"
 | tee last-gauntlet.txt
