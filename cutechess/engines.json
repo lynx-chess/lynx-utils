@@ -15,7 +15,7 @@
 		],
 		"protocol" : "uci",
 		"stderrFile" : "",
-		"workingDirectory" : "C:\\dev\\personal\\ch\\engines\\MinimalChess\\MinimalChess 0.6 Windows"
+		"workingDirectory" : "engines\\MinimalChess\\MinimalChess 0.6 Windows"
 	},
 	{
 		"command" : "kimbo-1.0.0.exe",
@@ -49,38 +49,7 @@
 		"workingDirectory" : "engines\\Kimbo"
 	},
 	{
-		"command" : "akimbo-0.4.0-v3.exe",
-		"name" : "Akimbo 0.4.0",
-		"options" : [
-			{
-				"alias" : "",
-				"default" : 128,
-				"max" : 512,
-				"min" : 1,
-				"name" : "Hash",
-				"type" : "spin",
-				"value" : 128
-			},
-			{
-				"name" : "Clear Hash",
-				"type" : "button"
-			},
-			{
-				"alias" : "",
-				"default" : 10,
-				"max" : 500,
-				"min" : 0,
-				"name" : "Move Overhead",
-				"type" : "spin",
-				"value" : 10
-			}
-		],
-		"protocol" : "uci",
-		"stderrFile" : "",
-		"workingDirectory" : "engines\\Akimbo"
-	},
-	{
-		"command" : "akimbo-0.4.1-x86_64-win-v3",
+		"command" : "akimbo-0.4.1-x86_64-win-v4.exe",
 		"name" : "Akimbo 0.4.1",
 		"options" : [
 			{
@@ -95,15 +64,6 @@
 			{
 				"name" : "Clear Hash",
 				"type" : "button"
-			},
-			{
-				"alias" : "",
-				"default" : 10,
-				"max" : 500,
-				"min" : 0,
-				"name" : "Move Overhead",
-				"type" : "spin",
-				"value" : 10
 			}
 		],
 		"protocol" : "uci",
@@ -111,8 +71,8 @@
 		"workingDirectory" : "engines\\Akimbo"
 	},
 	{
-		"command" : "princhess-0.10.0.exe",
-		"name" : "Princhess 0.10.0",
+		"command" : "princhess-0.12.0.exe",
+		"name" : "Princhess 0.12.0",
 		"options" : [
 			{
 				"alias" : "",
@@ -152,8 +112,71 @@
 		"workingDirectory" : "engines\\Princhess"
 	},
 	{
-		"command" : "stash-20.0.1-windows-x86_64-modern.exe",
-		"name" : "Stash 20.0.1",
+		"command" : "princhess-0.13.0.exe",
+		"name" : "Princhess 0.13.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 16,
+				"max" : 65536,
+				"min" : 8,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 16
+			},
+			{
+				"alias" : "",
+				"default" : 1,
+				"max" : 255,
+				"min" : 1,
+				"name" : "Threads",
+				"type" : "spin",
+				"value" : 1
+			},
+			{
+				"alias" : "",
+				"default" : "",
+				"name" : "SyzygyPath",
+				"type" : "text",
+				"value" : ""
+			},
+			{
+				"alias" : "",
+				"default" : "1.79",
+				"name" : "CPuct",
+				"type" : "text",
+				"value" : "1.79"
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Princhess"
+	},
+	{
+		"command" : "inanis.exe",
+		"name" : "Inanis 1.2.1",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 16,
+				"max" : 131072,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 16
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"variants" : [
+			"standard",
+			"fischerandom"
+		],
+		"workingDirectory" : "engines\\Inanis\\inanis_1.2.1_windows_64bit_x86-64_popcnt_bmi2"
+	},
+	{
+		"command" : "stash-25.0-windows-x86_64-modern.exe",
+		"name" : "Stash 25.0",
 		"options" : [
 			{
 				"alias" : "",
@@ -172,33 +195,6 @@
 			"fischerandom"
 		],
 		"workingDirectory" : "engines\\Stash"
-	},
-	{
-		"command" : "messv0.1.0-windows-amd64.exe",
-		"name" : "Mess 0.1.0",
-		"options" : [
-			{
-				"alias" : "",
-				"default" : 16,
-				"max" : 33554432,
-				"min" : 1,
-				"name" : "Hash",
-				"type" : "spin",
-				"value" : 16
-			},
-			{
-				"alias" : "",
-				"default" : 1,
-				"max" : 1,
-				"min" : 1,
-				"name" : "Threads",
-				"type" : "spin",
-				"value" : 1
-			}
-		],
-		"protocol" : "uci",
-		"stderrFile" : "",
-		"workingDirectory" : "engines\\Mess\\0.1.0"
 	},
 	{
 		"command" : "mess-windows-amd64.exe",
@@ -246,8 +242,8 @@
 		"workingDirectory" : "engines\\Avalanche"
 	},
 	{
-		"command" : "odonata-0.5.1-windows-modern.exe",
-		"name" : "Odonata 0.5.1",
+		"command" : "odonata-0.8.0-windows-modern.exe",
+		"name" : "Odonata 0.8.0",
 		"protocol" : "uci",
 		"options" : [
 			{
@@ -264,8 +260,44 @@
 		"workingDirectory" : "engines\\Odonata"
 	},
 	{
-		"command" : "polaris-1.3.0-bmi2.exe",
-		"name" : "Polaris 1.3.0",
+		"command" : "simbelmyne-v1.7.0-x86_64-v3.exe",
+		"name" : "Simbelmyne 1.7.0",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Simbelmyne"
+	},
+	{
+		"command" : "Altair2.0.0_windows_64.exe",
+		"name" : "Altair 2.0.0",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Altair"
+	},
+	{
+		"command" : "polaris-1.6.1-bmi2.exe",
+		"name" : "Polaris 1.6.1",
 		"protocol" : "uci",
 		"options" : [
 			{
@@ -282,8 +314,8 @@
 		"workingDirectory" : "engines\\Polaris"
 	},
 	{
-		"command" : "polaris-1.5.0-bmi2.exe",
-		"name" : "Polaris 1.5.0",
+		"command" : "polaris-1.7.0-bmi2.exe",
+		"name" : "Polaris 1.7.0",
 		"protocol" : "uci",
 		"options" : [
 			{
@@ -300,8 +332,44 @@
 		"workingDirectory" : "engines\\Polaris"
 	},
 	{
-		"command" : "zahak-windows-amd64-4.0.exe",
-		"name" : "Zahak 4.0",
+		"command" : "polaris-1.8.1-bmi2.exe",
+		"name" : "Polaris 1.8.1",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Polaris"
+	},
+	{
+		"command" : "MadChess.Engine.exe",
+		"name" : "MadChess 3.2",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\MadChess\\MadChess-3-2\\MadChess\\x64"
+	},
+	{
+		"command" : "zahak-windows-amd64-6.2.exe",
+		"name" : "Zahak 6.2",
 		"protocol" : "uci",
 		"options" : [
 			{
@@ -318,8 +386,8 @@
 		"workingDirectory" : "engines\\Zahak"
 	},
 	{
-		"command" : "luna_2.0.0_avx2_win_x86-64.exe",
-		"name" : "Luna 2.0.0",
+		"command" : "weiss-pext-1.0.0.exe",
+		"name" : "Weiss 1.0",
 		"protocol" : "uci",
 		"options" : [
 			{
@@ -333,43 +401,7 @@
 			}
 		],
 		"stderrFile" : "",
-		"workingDirectory" : "engines\\Luna"
-	},
-	{
-		"command" : "admete_1.5.0_windows_x86-64.exe",
-		"name" : "Admete 1.5.0",
-		"protocol" : "uci",
-		"options" : [
-			{
-				"alias" : "",
-				"default" : 256,
-				"max" : 131072,
-				"min" : 0,
-				"name" : "Hash",
-				"type" : "spin",
-				"value" : 256
-			}
-		],
-		"stderrFile" : "",
-		"workingDirectory" : "engines\\Admete"
-	},
-	{
-		"command" : "Pedantic.exe",
-		"name" : "Pedantic 0.3.0",
-		"options" : [
-			{
-				"alias" : "",
-				"default" : 50,
-				"max" : 2047,
-				"min" : 1,
-				"name" : "Hash",
-				"type" : "spin",
-				"value" : 50
-			}
-		],
-		"protocol" : "uci",
-		"stderrFile" : "",
-		"workingDirectory" : "engines\\Pedantic\\Pedantic.0.3.0.Win64\\"
+		"workingDirectory" : "engines\\Weiss"
 	},
 	{
 		"command" : "Pedantic.exe",
@@ -390,8 +422,8 @@
 		"workingDirectory" : "engines\\Pedantic\\Pedantic.0.4.1.Win64\\"
 	},
 	{
-		"command" : "Leorik-2.0.2.exe",
-		"name" : "Leorik 2.0.2",
+		"command" : "Leorik-2.4.exe",
+		"name" : "Leorik 2.4",
 		"options" : [
 			{
 				"alias" : "",
@@ -405,36 +437,11 @@
 		],
 		"protocol" : "uci",
 		"stderrFile" : "",
-		"workingDirectory" : "C:\\dev\\personal\\ch\\engines\\Leorik\\Leorik 2.0 Windows"
+		"workingDirectory" : "engines\\Leorik\\Leorik 2.4 Windows"
 	},
 	{
 		"command" : "Lynx.Cli.exe",
-		"name" : "Lynx 1.1.0",
-		"options" : [
-			{
-				"alias" : "",
-				"default" : 256,
-				"max" : 131072,
-				"min" : 0,
-				"name" : "Hash",
-				"type" : "spin",
-				"value" : 256
-			},
-			{
-				"alias" : "",
-				"default" : false,
-				"name" : "OnlineTablebaseInRootPositions",
-				"type" : "check",
-				"value" : false
-			}
-		],
-		"protocol" : "uci",
-		"stderrFile" : "",
-		"workingDirectory" : "C:\\dev\\personal\\ch\\engines\\Lynx-1.1.0-win-x64"
-	},
-	{
-		"command" : "Lynx.Cli.exe",
-		"name" : "Lynx 2378 - main",
+		"name" : "Lynx 1.5.0",
 		"options" : [
 			{
 				"alias" : "",
@@ -448,6 +455,6 @@
 		],
 		"protocol" : "uci",
 		"stderrFile" : "errors-main.txt",
-		"workingDirectory" : "engines\\Lynx-main-2378-win-x64"
+		"workingDirectory" : "engines\\LLynx-1.5.0-win-x64"
 	}
 ]
