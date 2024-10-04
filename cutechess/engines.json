@@ -71,6 +71,59 @@
 		"workingDirectory" : "engines\\Akimbo"
 	},
 	{
+		"command" : "akimbo-0.5.0-x86_64-win-v4.exe",
+		"name" : "Akimbo 0.5.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 128,
+				"max" : 512,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 128
+			},
+			{
+				"name" : "Clear Hash",
+				"type" : "button"
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Akimbo"
+	},
+	{
+		"command" : "akimbo-0.4.1-x86_64-win-v3",
+		"name" : "Akimbo 0.4.1",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 128,
+				"max" : 512,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 128
+			},
+			{
+				"name" : "Clear Hash",
+				"type" : "button"
+			},
+			{
+				"alias" : "",
+				"default" : 10,
+				"max" : 500,
+				"min" : 0,
+				"name" : "Move Overhead",
+				"type" : "spin",
+				"value" : 10
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Akimbo"
+	},
+	{
 		"command" : "princhess-0.12.0.exe",
 		"name" : "Princhess 0.12.0",
 		"options" : [
@@ -154,7 +207,7 @@
 	},
 	{
 		"command" : "inanis.exe",
-		"name" : "Inanis 1.2.1",
+		"name" : "Inanis 1.4.0",
 		"options" : [
 			{
 				"alias" : "",
@@ -172,11 +225,77 @@
 			"standard",
 			"fischerandom"
 		],
-		"workingDirectory" : "engines\\Inanis\\inanis_1.2.1_windows_64bit_x86-64_popcnt_bmi2"
+		"workingDirectory" : "engines\\Inanis\\inanis_1.4.0_windows_64bit_x86-64_popcnt_bmi2"
 	},
 	{
-		"command" : "stash-25.0-windows-x86_64-modern.exe",
-		"name" : "Stash 25.0",
+		"command" : "stash-28.0-windows-x86_64-bmi2.exe",
+		"name" : "Stash 28.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 16,
+				"max" : 131072,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 16
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"variants" : [
+			"standard",
+			"fischerandom"
+		],
+		"workingDirectory" : "engines\\Stash"
+	},
+	{
+		"command" : "stash-29.0-windows-x86_64-bmi2.exe",
+		"name" : "Stash 29.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 16,
+				"max" : 131072,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 16
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"variants" : [
+			"standard",
+			"fischerandom"
+		],
+		"workingDirectory" : "engines\\Stash"
+	},
+	{
+		"command" : "stash-30.0-windows-x86_64-bmi2.exe",
+		"name" : "Stash 30.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 16,
+				"max" : 131072,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 16
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"variants" : [
+			"standard",
+			"fischerandom"
+		],
+		"workingDirectory" : "engines\\Stash"
+	},
+	{
+		"command" : "stash-32.0-windows-x86_64-bmi2.exe",
+		"name" : "Stash 32.0",
 		"options" : [
 			{
 				"alias" : "",
@@ -278,6 +397,186 @@
 		"workingDirectory" : "engines\\Simbelmyne"
 	},
 	{
+		"command" : "simbelmyne-v1.9.0-x86_64-v3.exe",
+		"name" : "Simbelmyne 1.9.0",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Simbelmyne"
+	},
+	{
+		"command" : "lambergar-v0.6.0-x86_64-win-AVX2.exe",
+		"name" : "Lambergar 0.6.0",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Lambergar"
+	},
+	{
+		"command" : "Winter_0.8_New.exe",
+		"name" : "Winter 0.8",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Winter"
+	},
+	{
+		"command" : "Winter_0.9_New.exe",
+		"name" : "Winter 0.9",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Winter"
+	},
+	{
+		"command" : "Winter_1.0_New.exe",
+		"name" : "Winter 1.0",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Winter"
+	},
+	{
+		"command" : "Winter_1.1_New.exe",
+		"name" : "Winter 1.1",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Winter"
+	},
+	{
+		"command" : "midnight-windows-7.exe",
+		"name" : "Midnight 7",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Midnight"
+	},
+	{
+		"command" : "stockfish-windows-x86-64-avx512.exe",
+		"name" : "Stockfish 17",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Stockfish\\17"
+	},
+	{
+		"command" : "Alexandria-2.3.exe",
+		"name" : "Alexandria 2.3",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Alexandria"
+	},
+	{
+		"command" : "Clarity_3.0.0_x86-64-v4.exe",
+		"name" : "Clarity 3.0.0",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Clarity"
+	},
+	{
 		"command" : "Altair2.0.0_windows_64.exe",
 		"name" : "Altair 2.0.0",
 		"protocol" : "uci",
@@ -294,6 +593,96 @@
 		],
 		"stderrFile" : "",
 		"workingDirectory" : "engines\\Altair"
+	},
+	{
+		"command" : "Altair3.0.0_windows_64.exe",
+		"name" : "Altair 3.0.0",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Altair"
+	},
+	{
+		"command" : "Altair4.0.0_windows_64.exe",
+		"name" : "Altair 4.0.0",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Altair"
+	},
+	{
+		"command" : "Altair-windows-x86-64-v4-5.0.0.exe",
+		"name" : "Altair 5.0.0",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Altair"
+	},
+	{
+		"command" : "PeSTO_bmi2.exe",
+		"name" : "PeSTO 2.210",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\PeSTO\\2.210"
+	},
+	{
+		"command" : "Nalwald-16-modern.exe",
+		"name" : "Nalwald 16",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Nalwald"
 	},
 	{
 		"command" : "polaris-1.6.1-bmi2.exe",
@@ -351,6 +740,24 @@
 	},
 	{
 		"command" : "MadChess.Engine.exe",
+		"name" : "MadChess 3.1",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\MadChess\\MadChess-3-1\\MadChess\\x64"
+	},
+	{
+		"command" : "MadChess.Engine.exe",
 		"name" : "MadChess 3.2",
 		"protocol" : "uci",
 		"options" : [
@@ -386,6 +793,42 @@
 		"workingDirectory" : "engines\\Zahak"
 	},
 	{
+		"command" : "zahak-windows-amd64-7.1.exe",
+		"name" : "Zahak 7.1",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Zahak"
+	},
+	{
+		"command" : "zahak-windows-amd64-8.0-avx.exe",
+		"name" : "Zahak 8.0",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Zahak"
+	},
+	{
 		"command" : "weiss-pext-1.0.0.exe",
 		"name" : "Weiss 1.0",
 		"protocol" : "uci",
@@ -402,6 +845,78 @@
 		],
 		"stderrFile" : "",
 		"workingDirectory" : "engines\\Weiss"
+	},
+	{
+		"command" : "weiss-pext-1.2.exe",
+		"name" : "Weiss 1.2",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Weiss"
+	},
+	{
+		"command" : "weiss-pext-1.3.exe",
+		"name" : "Weiss 1.3",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Weiss"
+	},
+	{
+		"command" : "weiss-pext-1.4.exe",
+		"name" : "Weiss 1.4",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Weiss"
+	},
+	{
+		"command" : "admete_1.5.0_windows_x86-64.exe",
+		"name" : "Admete 1.5.0",
+		"protocol" : "uci",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 256
+			}
+		],
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Admete"
 	},
 	{
 		"command" : "Pedantic.exe",
@@ -422,6 +937,132 @@
 		"workingDirectory" : "engines\\Pedantic\\Pedantic.0.4.1.Win64\\"
 	},
 	{
+		"command" : "Pedantic.exe",
+		"name" : "Pedantic 0.5.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Pedantic\\Pedantic.0.5.0.Win64\\"
+	},
+	{
+		"command" : "Pedantic.exe",
+		"name" : "Pedantic 0.6.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Pedantic\\Pedantic.0.6.0.Win64\\"
+	},
+	{
+		"command" : "Pedantic.exe",
+		"name" : "Pedantic 1.0.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Pedantic\\Pedantic_1.0.0.Win64\\Pedantic_1.0.0"
+	},
+	{
+		"command" : "Pedantic.exe",
+		"name" : "Pedantic 1.1.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Pedantic\\Pedantic_1.1.0.Win64\\Pedantic_1.1.0"
+	},
+	{
+		"command" : "Pedantic.exe",
+		"name" : "Pedantic 2.0.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Pedantic\\Pedantic_2.0.0.Win64\\Pedantic_2.0.0"
+	},
+	{
+		"command" : "4ku-4.0-avx2.exe",
+		"name" : "4ku 4.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\4ku"
+	},
+	{
+		"command" : "Leorik-2.0.2.exe",
+		"name" : "Leorik 2.0",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Leorik\\Leorik 2.0 Windows"
+	},
+	{
 		"command" : "Leorik-2.4.exe",
 		"name" : "Leorik 2.4",
 		"options" : [
@@ -440,8 +1081,44 @@
 		"workingDirectory" : "engines\\Leorik\\Leorik 2.4 Windows"
 	},
 	{
+		"command" : "Leorik-2.5-PEXT.exe",
+		"name" : "Leorik 2.5",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Leorik\\Leorik.2.5.Windows.Pext\\Leorik 2.5 Windows"
+	},
+	{
+		"command" : "Leorik-3.0.1.exe",
+		"name" : "Leorik 3.0.1",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 50,
+				"max" : 2047,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 50
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"workingDirectory" : "engines\\Leorik\\Leorik.3.0.1.Windows\\Leorik 3.0.1 Windows"
+	},
+	{
 		"command" : "Lynx.Cli.exe",
-		"name" : "Lynx 1.5.0",
+		"name" : "Lynx 1.7.0",
 		"options" : [
 			{
 				"alias" : "",
@@ -455,6 +1132,78 @@
 		],
 		"protocol" : "uci",
 		"stderrFile" : "errors-main.txt",
-		"workingDirectory" : "engines\\LLynx-1.5.0-win-x64"
+		"workingDirectory" : "engines\\Lynx-1.7.0-win-x64"
+	},
+	{
+		"command" : "Lynx.Cli.exe",
+		"name" : "Lynx 4160 - main",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines\\Lynx-main-4160-win-x64"
+	},
+	{
+		"command" : "Lynx.Cli.exe",
+		"name" : "Lynx-spsa-1-10-wf-848-iter-4161-win-x64",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines\\Lynx-spsa-1-10-wf-848-iter-4161-win-x64"
+	},
+	{
+		"command" : "Lynx.Cli.exe",
+		"name" : "Lynx-bugfix-no-pruning-negative-checkmate-score-debugging-4129-win-x64",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines\\Lynx-bugfix-no-pruning-negative-checkmate-score-debugging-4129-win-x64"
+	},
+	{
+		"command" : "Lynx.Cli.exe",
+		"name" : "Lynx-eval-bad-bishop-blocked-central-pawns-penalty-3976",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines\\Lynx-eval-bad-bishop-blocked-central-pawns-penalty-3976"
 	}
 ]
