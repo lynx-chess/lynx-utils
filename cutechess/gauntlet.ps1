@@ -14,7 +14,7 @@
     -each `
         tc=inf/40+0.4 `
         option.Hash=256 `
-    -games 2 -rounds 500 -repeat 1 -maxmoves 400 -srand 1692649580 `
+    -games 2 -rounds 500 -repeat -maxmoves 400 -srand 1692649580 `
     -openings file="books\8moves_v3.epd" format=epd order=random `
     -tournament "gauntlet" -seeds 1 `
     -concurrency 8 `
@@ -28,4 +28,4 @@
 
     # " -event "Gauntlet $((Get-Date).ToString('yyyy-MM-dd_HH-mm'))" `
 
-	
+

@@ -4,7 +4,7 @@
     -each `
         tc=inf/40+0.4 `
         option.Hash=256 `
-    -games 2 -rounds 10000 -repeat 1 -maxmoves 400 -srand 1692649580 `
+    -games 2 -rounds 10000 -repeat -maxmoves 400 -srand 1692649580 `
     -openings file="books\8moves_v3.epd" format=epd order=random `
     -tournament "gauntlet" -seeds 1 `
     -concurrency 8 `
