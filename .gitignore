@@ -1,2 +1,8 @@
 *.pgn
+*.log
+last-sprt.txt
+
 cutechess/Engines
+
+fastchess/Engines
+fastchess/config.json
