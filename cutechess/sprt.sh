@@ -1,6 +1,6 @@
-./cutechess-1.3.1-linux64/cutechess-ob \
+./cutechess-cli-1.3.1-linux64/cutechess-ob \
     -engine dir=engines/dev cmd=./Lynx.Cli name=Lynx-dev option.Hash=4096 option.Threads=34  \
-    -engine dir=engines/dev-2 cmd=./Lynx.Cli name=Lynx-dev-2 option.Hash=4096 option.Threads=34 \
+    -engine dir=engines/base cmd=./Lynx.Cli name=Lynx-base option.Hash=4096 option.Threads=34 \
     -each \
         tc=inf/40+0.4 \
         proto=uci \
