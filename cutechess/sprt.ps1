@@ -1,6 +1,6 @@
 &"cutechess-1.3.1-win64\cutechess-cli.exe" `
-    -engine conf="Lynx 2582 - main" `
-    -engine conf="Lynx 2582 - main" `
+    -engine conf="Lynx 6534 - main" `
+    -engine conf="Lynx 6534 - main" `
     -each `
         tc=inf/8+0.08 `
         ponder `
@@ -14,7 +14,7 @@
     -ratinginterval 10 `
     -resultformat wide2 `
     -pgnout "matches\sprt-2582.pgn" `
-    -resign movecount=3 score=500 twosided=true `
+    -resign movecount=3 score=400 twosided=true `
     -draw movenumber=40 movecount=8 score=10
 | tee last-sprt.txt
 

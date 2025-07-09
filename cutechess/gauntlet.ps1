@@ -1,16 +1,17 @@
 &"cutechess-1.3.1-win64/cutechess-cli.exe" `
-    -engine conf="Lynx 1.7.0" `
-    -engine conf="Pedantic 1.0.0" `
-    -engine conf="Weiss 1.3" `
-    -engine conf="Clarity 3.0.0" `
-    -engine conf="Alexandria 2.3" `
-    -engine conf="Midnight 7" `
-    -engine conf="Stash 28.0" `
-    -engine conf="Simbelmyne 1.9.0" `
-    -engine conf="Lambergar 0.6.0" `
-    -engine conf="Winter 0.8" `
-    -engine conf="Altair 4.0.0" `
-    -engine conf="Akimbo 0.5.0" `
+    -engine conf="Lynx 1.10.0" `
+    -engine conf="Weiss 2.0" `
+    -engine conf="Pedantic 2.0.0" `
+    -engine conf="Wasp 5.00" `
+    -engine conf="Zahak 9.0" `
+    -engine conf="DanaSah 9.1" `
+    -engine conf="Black Marlin 5.0" `
+    -engine conf="Clover 2.4" `
+    -engine conf="Stash 33.0" `
+    -engine conf="Arcanum 2.5" `
+    -engine conf="StockNemo 5.7.0.0" `
+    -engine conf="Leorik 3.0.1" `
+    -engine conf="Seer 2.1.0" `
     -each `
         tc=inf/40+0.4 `
         option.Hash=256 `
@@ -20,12 +21,13 @@
     -concurrency 8 `
     -outcomeinterval 10 -ratinginterval 10 -resultformat wide2 `
     -recover `
-    -pgnout "matches\gauntlet-1.7.0-ltc.pgn" `
+    -pgnout "matches\gauntlet-1.11.0-ltc.pgn" `
 | tee last-gauntlet.txt
-
     # -draw movenumber=30 movecount=12 score=15 `
     # -resign movecount=12 score=600 twosided=true `
 
+
     # " -event "Gauntlet $((Get-Date).ToString('yyyy-MM-dd_HH-mm'))" `
+    # -engine conf="Weiss 1.4" `
 
 
