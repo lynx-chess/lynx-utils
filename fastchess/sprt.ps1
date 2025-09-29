@@ -11,7 +11,7 @@
     -resign movecount=3 score=500 twosided=true `
     -draw movenumber=40 movecount=8 score=10 `
     -rounds 200000 -repeat `
-    -sprt elo0=0 elo1=3 alpha=0.05 beta=0.1 model=logistic `
+    -sprt elo0=0 elo1=3 alpha=0.05 beta=0.1 `
     -openings file="../cutechess/books/UHO_XXL_+0.90_+1.19.epd" format=epd order=random `
     -maxmoves 400 -srand 1692649580 -ratinginterval 10 `
     -pgnout "matches\sprt-6596.pgn" `
