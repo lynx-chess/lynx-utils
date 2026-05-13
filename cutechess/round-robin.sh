@@ -5,7 +5,7 @@
     -engine conf="sirius-3bedea6" \
     -engine conf="stash-153b1e4" \
     -engine conf="weiss-95b0951" \
-    -engine conf="stockfish-hce" \
+    -engine conf="stockfish-classical" \
     -each \
         tc=inf/40+0.4 \
         option.Hash=1024 \

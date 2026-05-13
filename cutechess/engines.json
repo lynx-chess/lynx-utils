@@ -1677,5 +1677,131 @@
 		"protocol" : "uci",
 		"stderrFile" : "errors-main.txt",
 		"workingDirectory" : "engines\\Lynx-experiment-multiarray-tt-5985-win-x64"
+	},
+	{
+		"command" : "Lynx-d220df4e",
+		"name" : "Lynx-d220df4e",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines"
+	},
+	{
+		"command" : "Perseus-2d07444",
+		"name" : "Perseus-2d07444",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines"
+	},
+	{
+		"command" : "Potential-127e8ba9",
+		"name" : "Potential-127e8ba9",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines"
+	},
+	{
+		"command" : "sirius-3bedea6",
+		"name" : "sirius-3bedea6",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines"
+	},
+	{
+		"command" : "stash-153b1e4",
+		"name" : "stash-153b1e4",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines"
+	},
+	{
+		"command" : "stockfish-classical",
+		"name" : "stockfish-classical",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines"
+	},
+	{
+		"command" : "weiss-95b0951",
+		"name" : "weiss-95b0951",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : 256,
+				"max" : 131072,
+				"min" : 0,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 64
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "errors-main.txt",
+		"workingDirectory" : "engines"
 	}
 ]
