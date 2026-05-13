@@ -1,12 +1,13 @@
 ./cutechess-cli-1.3.1-linux64/cutechess-ob \
-    -engine conf="Lynx-d220df4e" \
-    -engine conf="Perseus-2d07444" \
-    -engine conf="Potential-127e8ba9" \
-    -engine conf="sirius-3bedea6" \
-    -engine conf="stash-153b1e4" \
-    -engine conf="weiss-95b0951" \
-    -engine conf="stockfish-classical" \
+    -engine cmd="engines/Lynx-d220df4e" \
+    -engine cmd="engines/Perseus-2d07444" \
+    -engine cmd="engines/Potential-127e8ba9" \
+    -engine cmd="engines/sirius-3bedea6" \
+    -engine cmd="engines/stash-153b1e4" \
+    -engine cmd="engines/weiss-95b0951" \
+    -engine cmd="engines/stockfish-classical" \
     -each \
+        proto=uci \
         tc=inf/40+0.4 \
         option.Hash=1024 \
         option.Threads=16 \
