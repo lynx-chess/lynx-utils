@@ -1,10 +1,10 @@
 ./cutechess-cli-1.3.1-linux64/cutechess-ob \
-    -engine cmd="engines/Lynx-d220df4e" name="Lynx-d220df4e" \
-    -engine cmd="engines/Potential-127e8ba9" name="Potential-127e8ba9" \
-    -engine cmd="engines/sirius-3bedea6" name="Sirius-3bedea6" \
-    -engine cmd="engines/stash-153b1e4" name="Stash-153b1e4" \
-    -engine cmd="engines/weiss-95b0951" name="Weiss-95b0951" \
-    -engine cmd="engines/stockfish-classical" name="Stockfish-classical" \
+    -engine cmd="engines/lynx-d220df4e" name="lynx-d220df4e" \
+    -engine cmd="engines/potential-127e8ba9" name="potential-127e8ba9" \
+    -engine cmd="engines/sirius-3bedea6" name="sirius-3bedea6" \
+    -engine cmd="engines/stash-153b1e4" name="stash-153b1e4" \
+    -engine cmd="engines/weiss-95b0951" name="weiss-95b0951" \
+    -engine cmd="engines/stockfish-classical" name="stockfish-classical" \
     -engine cmd="engines/clockwork-5bc8f0c" name="clockwork-5bc8f0c" \
     -each \
         proto=uci \
