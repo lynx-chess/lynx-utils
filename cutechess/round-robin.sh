@@ -19,6 +19,6 @@
     -ratinginterval 10 \
     -resultformat wide2 \
     -recover \
-    -pgnout "matches/round-robin-HCE-STC.pgn" \
+    -pgnout "matches/round-robin-HCE-LTC.pgn" \
     -event "Round-robin" \
 2>&1 | tee last-round-robin.txt
