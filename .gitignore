@@ -5,4 +5,15 @@ last-sprt.txt
 cutechess/Engines
 
 fastchess/Engines
+fastchess/engines
 fastchess/config.json
+
+pgn-extract
+
+fastchess-linux-x86-64/
+
+UHO_Lichess_4852_v1.epd
+
+cutechess-ob
+
+last-gauntlet.txt
